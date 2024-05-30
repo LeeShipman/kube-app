@@ -1,11 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
-metadat:
+metadata:
   name: vpromc
   labels:
     app: vpromc
-    labels:
-      app: vpromc
 spec:
  selector:
    matchLabels:
